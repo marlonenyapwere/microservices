@@ -90,6 +90,20 @@
                     </annotationProcessorPaths>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>jib-maven-plugin</artifactId>
+                <version>3.4.2</version>
+                <configuration>
+                    <to>
+                        <image>marlonenyapwere/${project.artifactId}:s4</image>
+                        <auth>
+                            <username>marlonenyapwere</username>
+                            <password>m@rlone_98</password>
+                        </auth>
+                    </to>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
