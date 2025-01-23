@@ -1,0 +1,16 @@
+/home/marlone/Desktop/My projects/microservices/loans/src/main/java/com/microservices/loans/LoansApplication.java
+/home/marlone/Desktop/My projects/microservices/loans/src/main/java/com/microservices/loans/audit/AuditAwareImpl.java
+/home/marlone/Desktop/My projects/microservices/loans/src/main/java/com/microservices/loans/constants/LoansConstants.java
+/home/marlone/Desktop/My projects/microservices/loans/src/main/java/com/microservices/loans/controller/LoansController.java
+/home/marlone/Desktop/My projects/microservices/loans/src/main/java/com/microservices/loans/dto/ErrorResponseDto.java
+/home/marlone/Desktop/My projects/microservices/loans/src/main/java/com/microservices/loans/dto/LoansDto.java
+/home/marlone/Desktop/My projects/microservices/loans/src/main/java/com/microservices/loans/dto/ResponseDto.java
+/home/marlone/Desktop/My projects/microservices/loans/src/main/java/com/microservices/loans/entity/BaseEntity.java
+/home/marlone/Desktop/My projects/microservices/loans/src/main/java/com/microservices/loans/entity/Loans.java
+/home/marlone/Desktop/My projects/microservices/loans/src/main/java/com/microservices/loans/exception/GlobalExceptionHandler.java
+/home/marlone/Desktop/My projects/microservices/loans/src/main/java/com/microservices/loans/exception/LoanAlreadyExistsException.java
+/home/marlone/Desktop/My projects/microservices/loans/src/main/java/com/microservices/loans/exception/ResourceNotFoundException.java
+/home/marlone/Desktop/My projects/microservices/loans/src/main/java/com/microservices/loans/mapper/LoansMapper.java
+/home/marlone/Desktop/My projects/microservices/loans/src/main/java/com/microservices/loans/repository/LoansRepository.java
+/home/marlone/Desktop/My projects/microservices/loans/src/main/java/com/microservices/loans/service/ILoansService.java
+/home/marlone/Desktop/My projects/microservices/loans/src/main/java/com/microservices/loans/service/impl/LoansServiceImpl.java
