@@ -97,10 +97,6 @@
                 <configuration>
                     <to>
                         <image>marlonenyapwere/${project.artifactId}:s4</image>
-                        <auth>
-                            <username>marlonenyapwere</username>
-                            <password>m@rlone_98</password>
-                        </auth>
                     </to>
                 </configuration>
             </plugin>
