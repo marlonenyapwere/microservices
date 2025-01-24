@@ -1,6 +1,7 @@
 package com.microservices.accounts.controller;
 
 import com.microservices.accounts.constants.AccountsConstants;
+import com.microservices.accounts.dto.AccountContactInfoDto;
 import com.microservices.accounts.dto.CustomerDto;
 import com.microservices.accounts.dto.ErrorResponseDto;
 import com.microservices.accounts.dto.ResponseDto;
@@ -40,6 +41,9 @@ public class AccountsController {
 
     @Autowired
     private Environment environment;
+
+    @Autowired
+    private AccountContactInfoDto accountContactInfoDto;
 
     public AccountsController(IAccountsService iAccountsService) {
         this.iAccountsService = iAccountsService;
@@ -222,6 +226,31 @@ public class AccountsController {
         return ResponseEntity
                 .status(HttpStatus.OK)
                 .body(environment.getProperty("JAVA_HOME"));
+    }
+
+    @Operation(
+            summary = "Get contact info",
+            description = "Get contact info to reach out in case of ...."
+    )
+    @ApiResponses({
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "HTTP Status OK"
+            ),
+            @ApiResponse(
+                    responseCode = "500",
+                    description = "HTTP Status Internal Server Error",
+                    content = @Content(
+                            schema = @Schema(implementation = ErrorResponseDto.class)
+                    )
+            )
+    }
+    )
+    @GetMapping("/contact-info")
+    public ResponseEntity<AccountContactInfoDto> getContactInfo() {
+        return ResponseEntity
+                .status(HttpStatus.OK)
+                .body(accountContactInfoDto);
     }
 
 }
