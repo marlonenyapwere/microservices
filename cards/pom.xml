@@ -96,11 +96,7 @@
                 <version>3.4.2</version>
                 <configuration>
                     <to>
-                        <image>marlonenyapwere/${project.artifactId}:s4</image>
-                        <auth>
-                            <username>marlonenyapwere</username>
-                            <password>m@rlone_98</password>
-                        </auth>
+                        <image>marlonenyapwere/${project.artifactId}:s6</image>
                     </to>
                 </configuration>
             </plugin>
