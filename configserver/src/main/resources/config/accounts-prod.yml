@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to Bank accounts related to Production APIs "
+  contactDetails:
+    name: "Ms Ruby - Product Owner"
+    email: "msruby@gmail.com"
+  onCallSupport:
+    - (555) 503-4254
+    - (555) 595-0932

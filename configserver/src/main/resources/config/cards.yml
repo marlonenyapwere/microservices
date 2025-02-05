@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to Bank cards related to local APIs "
+  contactDetails:
+    name: "Mad Max - Developer"
+    email: "max@gmail.com"
+  onCallSupport:
+    - (555) 503-4254
+    - (555) 595-0932
