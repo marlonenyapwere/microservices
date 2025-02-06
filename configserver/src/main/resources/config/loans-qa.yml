@@ -1,6 +1,11 @@
-spring:
-  application:
-    name: "configServer"
+build:
+  version: "2.0"
 
-server:
-  port: 8090
+loans:
+  message: "Welcome to Bank loans related QA APIs "
+  contactDetails:
+    name: "Cyrano Marita - QA Lead"
+    email: "cyrano@eazybank.com"
+  onCallSupport:
+    - (785) 545-6565
+    - (853) 546-3467
