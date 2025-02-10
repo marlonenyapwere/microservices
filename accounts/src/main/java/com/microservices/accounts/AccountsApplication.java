@@ -17,11 +17,11 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 @OpenAPIDefinition(
 		info = @Info(
 				title = "Accounts microservice REST API Documentation",
-				description = "EazyBank Accounts microservice REST API Documentation",
+				description = "Bank Accounts microservice REST API Documentation",
 				version = "v1",
 				contact = @Contact(
-						name = "Madan Reddy",
-						email = "tutor@eazybytes.com",
+						name = "Marlone",
+						email = "marlone@gmail.com",
 						url = "https://www.eazybytes.com"
 				),
 				license = @License(
@@ -31,7 +31,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 		),
 		externalDocs = @ExternalDocumentation(
 				description =  "Accounts microservice REST API Documentation",
-				url = "https://www.eazybytes.com/swagger-ui.html"
+				url = "https://www.microservices.com/swagger-ui.html"
 		)
 )
 public class AccountsApplication {
